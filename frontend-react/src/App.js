@@ -23,7 +23,6 @@ function App() {
       let getResData = responseData?.data;
       if (getResData.status === 200) {
         alert('Data Saved. Thanks for contacting.. get back to you soon.');
-
       } else {
         alert('some thing went wrong');
       }
@@ -37,7 +36,6 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-
       <Box
         component="form"
         sx={{
@@ -46,7 +44,7 @@ function App() {
         noValidate
         autoComplete="off"
       >
-        <div className='pt-5'>Enter Details</div>
+        <div className='pt-5'>Enter Detail</div>
         <div>
           <TextField
             required
